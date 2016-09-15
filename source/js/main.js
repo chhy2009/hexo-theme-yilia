@@ -1,15 +1,22 @@
 require([], function (){
 
 	var isMobileInit = false;
+	var yiliaConfig_root = '';
+	var setYiliaConfigRoot = function(){
+		if(yiliaConfig.root != null)
+		{
+			yiliaConfig_root = yiliaConfig.root;
+		}
+	}
 	var loadMobile = function(){
-		require([yiliaConfig.root + '/js/mobile.js'], function(mobile){
+		require([yiliaConfig_root + '/js/mobile.js'], function(mobile){
 			mobile.init();
 			isMobileInit = true;
 		});
 	}
 	var isPCInit = false;
 	var loadPC = function(){
-		require([yiliaConfig.root + '/js/pc.js'], function(pc){
+		require([yiliaConfig_root +'/js/pc.js'], function(pc){
 			pc.init();
 			isPCInit = true;
 		});
@@ -40,6 +47,7 @@ require([], function (){
 			return;
 		}
 		var w = $(window).width();
+		setYiliaConfigRoot();
 		if(w >= 700){
 			loadPC();
 		}else{
