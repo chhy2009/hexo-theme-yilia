@@ -2,27 +2,28 @@
 menu:
   主页: /
   所有文章: /archives
-  # 随笔: /tags/随笔
+  随笔: /categories/essay
+  关于我: /about
 
 # SubNav
 subnav:
-  github: "#"
+  github: "https://github.com/chhy2009"
   weibo: "#"
-  rss: "#"
+  #rss: "#"
   zhihu: "#"
   #douban: "#"
   #mail: "#"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
-  #linkedin: "#"
+  linkedin: "#"
 
 rss: /atom.xml
 
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
 # 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
-root: 
+# root:  
 
 # Content
 excerpt_link: more
@@ -33,19 +34,22 @@ mathjax: true
 animate: true
 
 # 是否在新窗口打开链接
-open_in_new: false
+open_in_new: true
 
 # Miscellaneous
 google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+#avatar: http://odizoogtm.bkt.clouddn.com/Octocat_GitHub.png?imageView2/2/w/100
+avatar: /img/head-photo.png
+#avatar: "https://avatars2.githubusercontent.com/u/19587420?v=3&s=460" 
 #是否开启分享
 share_jia: true
 share_addthis: false
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo_shortname: "chhy2009's blog"
 duoshuo: true
 #是否开启云标签
 tagcloud: true
@@ -55,15 +59,10 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  奥巴马的博客: http://localhost:4000/
-  卡卡的美丽传说: http://localhost:4000/
-  本泽马的博客: http://localhost:4000/
-  吉格斯的博客: http://localhost:4000/
-  习大大大不同: http://localhost:4000/
-  托蒂的博客: http://localhost:4000/
+  我的csdn博客: http://blog.csdn.net/codingcs 
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+aboutme: 程序员，编程爱好者
