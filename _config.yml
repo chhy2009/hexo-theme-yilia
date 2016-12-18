@@ -41,8 +41,8 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-#avatar: http://odizoogtm.bkt.clouddn.com/Octocat_GitHub.png?imageView2/2/w/100
-avatar: /img/head-photo.png
+avatar: http://odizoogtm.bkt.clouddn.com/Octocat_GitHub.png?imageView2/2/w/300
+#avatar: /img/head-photo.png
 #avatar: "https://avatars2.githubusercontent.com/u/19587420?v=3&s=460" 
 #是否开启分享
 share_jia: true
